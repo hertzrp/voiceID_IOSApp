@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2328597B029E20598A101FD5 /* Pods_AlzAppV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ABCF0BC4592A6F680F7321 /* Pods_AlzAppV2.framework */; };
+		F11B4017257143FB00A942AD /* SpeakerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4016257143FB00A942AD /* SpeakerTableCell.swift */; };
+		F17979AD256A5897008B09A8 /* CollectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17979AC256A5897008B09A8 /* CollectVC.swift */; };
+		F17979B0256AB079008B09A8 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17979AF256AB079008B09A8 /* AudioVC.swift */; };
+		F17979B3256AB1AB008B09A8 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17979B2256AB1AB008B09A8 /* PhotoVC.swift */; };
+		F18C66992568BFB900105FB8 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C66982568BFB900105FB8 /* ResultVC.swift */; };
+		F193545F2561F901004413A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F193545E2561F901004413A5 /* AppDelegate.swift */; };
+		F19354612561F901004413A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19354602561F901004413A5 /* SceneDelegate.swift */; };
+		F19354662561F901004413A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19354642561F901004413A5 /* Main.storyboard */; };
+		F19354682561F905004413A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19354672561F905004413A5 /* Assets.xcassets */; };
+		F193546B2561F905004413A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19354692561F905004413A5 /* LaunchScreen.storyboard */; };
+		F19354762562B339004413A5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19354752562B339004413A5 /* MainVC.swift */; };
+		F19F6174257E8B5800401400 /* default_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = F19F6173257E8B5800401400 /* default_pic.png */; };
+		F1DBC4F1256FE56700E1376A /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBC4F0256FE56700E1376A /* CommunityVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68ABCF0BC4592A6F680F7321 /* Pods_AlzAppV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlzAppV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B075772911401D2D7A0640A /* Pods-AlzAppV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlzAppV2.release.xcconfig"; path = "Target Support Files/Pods-AlzAppV2/Pods-AlzAppV2.release.xcconfig"; sourceTree = "<group>"; };
+		F11B4016257143FB00A942AD /* SpeakerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerTableCell.swift; sourceTree = "<group>"; };
+		F17979AC256A5897008B09A8 /* CollectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectVC.swift; sourceTree = "<group>"; };
+		F17979AF256AB079008B09A8 /* AudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		F17979B2256AB1AB008B09A8 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		F18C66982568BFB900105FB8 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		F193545B2561F901004413A5 /* AlzAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlzAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F193545E2561F901004413A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19354602561F901004413A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F19354652561F901004413A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19354672561F905004413A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F193546A2561F905004413A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F193546C2561F905004413A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19354752562B339004413A5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F19F6173257E8B5800401400 /* default_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_pic.png; sourceTree = SOURCE_ROOT; };
+		F1DBC4F0256FE56700E1376A /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
+		F91ED2ABD8DBFB24C00B59FF /* Pods-AlzAppV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlzAppV2.debug.xcconfig"; path = "Target Support Files/Pods-AlzAppV2/Pods-AlzAppV2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19354582561F901004413A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2328597B029E20598A101FD5 /* Pods_AlzAppV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A85957D62009ECF08FE80E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F91ED2ABD8DBFB24C00B59FF /* Pods-AlzAppV2.debug.xcconfig */,
+				6B075772911401D2D7A0640A /* Pods-AlzAppV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAA3DA3AD5CC3C1747A084F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68ABCF0BC4592A6F680F7321 /* Pods_AlzAppV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F19354522561F901004413A5 = {
+			isa = PBXGroup;
+			children = (
+				F193545D2561F901004413A5 /* AlzAppV2 */,
+				F193545C2561F901004413A5 /* Products */,
+				4A85957D62009ECF08FE80E9 /* Pods */,
+				EAA3DA3AD5CC3C1747A084F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F193545C2561F901004413A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F193545B2561F901004413A5 /* AlzAppV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F193545D2561F901004413A5 /* AlzAppV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F19F6173257E8B5800401400 /* default_pic.png */,
+				F193545E2561F901004413A5 /* AppDelegate.swift */,
+				F19354602561F901004413A5 /* SceneDelegate.swift */,
+				F19354752562B339004413A5 /* MainVC.swift */,
+				F19354642561F901004413A5 /* Main.storyboard */,
+				F19354672561F905004413A5 /* Assets.xcassets */,
+				F19354692561F905004413A5 /* LaunchScreen.storyboard */,
+				F193546C2561F905004413A5 /* Info.plist */,
+				F18C66982568BFB900105FB8 /* ResultVC.swift */,
+				F17979AC256A5897008B09A8 /* CollectVC.swift */,
+				F17979AF256AB079008B09A8 /* AudioVC.swift */,
+				F11B4016257143FB00A942AD /* SpeakerTableCell.swift */,
+				F17979B2256AB1AB008B09A8 /* PhotoVC.swift */,
+				F1DBC4F0256FE56700E1376A /* CommunityVC.swift */,
+			);
+			path = AlzAppV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F193545A2561F901004413A5 /* AlzAppV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F193546F2561F905004413A5 /* Build configuration list for PBXNativeTarget "AlzAppV2" */;
+			buildPhases = (
+				120F21DAEB8E589CD59C036F /* [CP] Check Pods Manifest.lock */,
+				F19354572561F901004413A5 /* Sources */,
+				F19354582561F901004413A5 /* Frameworks */,
+				F19354592561F901004413A5 /* Resources */,
+				4C90B5134B451E5B95292658 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlzAppV2;
+			productName = AlzAppV2;
+			productReference = F193545B2561F901004413A5 /* AlzAppV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19354532561F901004413A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F193545A2561F901004413A5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = F19354562561F901004413A5 /* Build configuration list for PBXProject "AlzAppV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19354522561F901004413A5;
+			productRefGroup = F193545C2561F901004413A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F193545A2561F901004413A5 /* AlzAppV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19354592561F901004413A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F193546B2561F905004413A5 /* LaunchScreen.storyboard in Resources */,
+				F19354682561F905004413A5 /* Assets.xcassets in Resources */,
+				F19F6174257E8B5800401400 /* default_pic.png in Resources */,
+				F19354662561F901004413A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120F21DAEB8E589CD59C036F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlzAppV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C90B5134B451E5B95292658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlzAppV2/Pods-AlzAppV2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlzAppV2/Pods-AlzAppV2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlzAppV2/Pods-AlzAppV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19354572561F901004413A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F193545F2561F901004413A5 /* AppDelegate.swift in Sources */,
+				F17979B0256AB079008B09A8 /* AudioVC.swift in Sources */,
+				F1DBC4F1256FE56700E1376A /* CommunityVC.swift in Sources */,
+				F18C66992568BFB900105FB8 /* ResultVC.swift in Sources */,
+				F19354762562B339004413A5 /* MainVC.swift in Sources */,
+				F11B4017257143FB00A942AD /* SpeakerTableCell.swift in Sources */,
+				F19354612561F901004413A5 /* SceneDelegate.swift in Sources */,
+				F17979AD256A5897008B09A8 /* CollectVC.swift in Sources */,
+				F17979B3256AB1AB008B09A8 /* PhotoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F19354642561F901004413A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19354652561F901004413A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19354692561F905004413A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F193546A2561F905004413A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F193546D2561F905004413A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F193546E2561F905004413A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19354702561F905004413A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91ED2ABD8DBFB24C00B59FF /* Pods-AlzAppV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLG5DV79RP;
+				INFOPLIST_FILE = AlzAppV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.lastminuteioscrew.AlzAppV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19354712561F905004413A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B075772911401D2D7A0640A /* Pods-AlzAppV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLG5DV79RP;
+				INFOPLIST_FILE = AlzAppV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.lastminuteioscrew.AlzAppV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19354562561F901004413A5 /* Build configuration list for PBXProject "AlzAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F193546D2561F905004413A5 /* Debug */,
+				F193546E2561F905004413A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F193546F2561F905004413A5 /* Build configuration list for PBXNativeTarget "AlzAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19354702561F905004413A5 /* Debug */,
+				F19354712561F905004413A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19354532561F901004413A5 /* Project object */;
+}

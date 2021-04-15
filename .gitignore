@@ -1,0 +1,25 @@
+
+*.pyc
+__pycache__/
+*.egg-info*
+dist/
+env/
+venv/
+venv3/
+.venv/
+.env/
+.pytest_cache
+
+# Text editors and IDEs
+*~
+*.lock
+*.swp
+.vscode
+.ropeproject/
+.vscode/
+xcuserdata/
+*.hmap
+*.ipa
+*.xcworkspace
+*.xcuserstate
+.DS_Store

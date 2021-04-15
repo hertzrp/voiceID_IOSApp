@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ForgetMeNot - Voice Sample Uploader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <h1>ForgetMeNot - Voice Uploader</h1>
+    <p>Thank you for helping me! Please proceed to upload a sample of your voice. First enter your name, relationship and upload an image of yourself.</p>
+    <input type="text" name="name" id="name" placeholder="Name" onfocus="placeHolder()">
+    <input type="text" name="relationship" id="relationship" placeholder="Relationship" onfocus="placeHolder()">
+    <input type="file" name="image" id="image">
+
+    <h2>Read the following excerpt from Harry Potter for your audio clip!</h2>
+    <i>"The Dursleys’ house had four bedrooms: one for Uncle Vernon and Aunt
+      Petunia, one for visitors (usually Uncle Vernon’s sister, Marge), one where
+      Dudley slept, and one where Dudley kept all the toys and things that
+      wouldn’t fit into his first bedroom. It only took Harry one trip upstairs to
+      move everything he owned from the cupboard to this room. He sat down on
+      the bed and stared around him."</i>
+    <div id="controls">
+  	 <button id="recordButton">Record</button>
+  	 <button id="pauseButton" disabled>Pause</button>
+  	 <button id="stopButton" disabled>Stop</button>
+    </div>
+    <div id="formats">Format: start recording to see sample rate</div>
+  	<p><strong>Recordings:</strong></p>
+  	<ol id="recordingsList"></ol>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+    <h2 id = "uploadStatus"></h2>
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </body>
+</html>
